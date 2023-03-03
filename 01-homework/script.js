@@ -26,7 +26,7 @@ console.log("Сума товару без копійок, округлена в 
 
 
 // Виведення суми з округленням в до 100-х
-let sumAroundHundred=(Math.ceil(sumAroundfloor/100))*100;
+let sumAroundHundred=(Math.round(sumAroundfloor/100))*100;
 console.log("Сума товару округлена до 100-х: " ,(sumAroundHundred));
 
 // Булеве значення суми
@@ -49,4 +49,4 @@ console.log("Ціна на товар зі знижкою ",milkPricediscount);
 const income=(applePrice/2)-(applePrice*discountRandom);
 console.log("Чистий прибуток: " , income); 
 // 
-console.log("Максимальна ціна: " + (maxPrice),"Мінімальна ціна: " + (minPrice),"Вартість всіх товарів: " + (sum),"Сума округлена в меншу сторону: " + (sumAroundfloor), "Сума товару округлена до 100-х: " + (sumAroundHundred) , "Решта: " + (equals) , "Середнє значення: " + (avaregeSum).toFixed(2));
+console.log("Максимальна ціна: " + maxPrice,"Мінімальна ціна: " + minPrice,"Вартість всіх товарів: " + sum,"Сума округлена в меншу сторону: " + sumAroundfloor, "Сума товару округлена до 100-х: " + sumAroundHundred , "Решта: " + equals , "Середнє значення: " + avaregeSum.toFixed(2));
