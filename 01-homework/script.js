@@ -17,7 +17,7 @@ console.log("Сума за всі товари: " , (sum));
 
 // Без копійок
 
-console.log("Ціна за товар без копійок: " , (Math.trunc(milkPrice),Math.trunc(applePrice),Math.trunc(saloPrice)));
+console.log("Ціна за товар без копійок: " , Math.trunc(milkPrice),Math.trunc(applePrice),Math.trunc(saloPrice));
 
 // Сума з округленням в меншу сторону
 let sumTrunc=Math.trunc(milkPrice) + Math.trunc(applePrice) + Math.trunc(saloPrice)
