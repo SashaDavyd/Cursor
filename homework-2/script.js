@@ -6,13 +6,14 @@ let M = parseInt(prompt('Введіть кінцеве число M='));
 console.log(M);
 
 
-// console.log(Boolean(confirm("Пропускати парні числа?")));
-if (Number.isInteger(N) === false, Number.isInteger(N) === false) {
-        console.log('Ці числа нам не підходять');
-}
 
 const oddOreven = (Boolean(confirm("Пропускати парні числа?")));
-console.log(oddOreven);
+
+
+if (Number.isInteger(N) === false, Number.isInteger(N) === false) {
+        alert('Ці числа нам не підходять')
+};
+
 
 
 let sum = 0;
@@ -22,11 +23,10 @@ for (let i = N; i <= M; i++) {
                         sum += i;
                 }
         } else {
-                // console.log(i)
                 sum += i;
-               
+
         }
-}
+};
 
 
 console.log(sum);
