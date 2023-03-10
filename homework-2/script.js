@@ -1,18 +1,18 @@
-let N = parseInt(prompt('Введіть початкове число N='));
+let M = 0
+let N = 0
+while (true){
+        let n = +parseInt(prompt('Введіть початкове число N= '));
+        let m = +parseInt(prompt('Введіть кінцеве число M= '));
+        N = n;  
+        M = m;
+        if (Number.isInteger(N) && Number.isInteger(M) &&  N>0 &&  N<M) break;
+}
 console.log(N);
-
-
-let M = parseInt(prompt('Введіть кінцеве число M='));
 console.log(M);
 
 
+const oddOreven = confirm("Пропускати парні числа?");
 
-const oddOreven = (Boolean(confirm("Пропускати парні числа?")));
-
-
-if (Number.isInteger(N) === false, Number.isInteger(N) === false) {
-        alert('Ці числа нам не підходять')
-};
 
 
 
