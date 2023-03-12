@@ -55,7 +55,7 @@
 // console.log(heroes);
 
 
-const heroesUpperCase = [];
+// const heroesUpperCase = [];
 
 
 // for (let i=0;i<heroes.length;i++){
@@ -122,22 +122,22 @@ const heroesUpperCase = [];
 // console.log(res);
 
 
-const avangersTeam1 = [
-    'Spider-Man',
-    'Iron Man',
-    'Black Panter',
-    'Capitan America',
-];
+// const avangersTeam1 = [
+//     'Spider-Man',
+//     'Iron Man',
+//     'Black Panter',
+//     'Capitan America',
+// ];
 
-const avangersTeam2 = [
-    'jesica Jones',
-    'Ant Man'
-];
+// const avangersTeam2 = [
+//     'jesica Jones',
+//     'Ant Man'
+// ];
 
 // const avangers = avangersTeam1.concat(avangersTeam2, [2,3],'333')
 // console.log(avangers);
 
-const avangers = [...avangersTeam1,...avangersTeam2,...['222'],...['444'],...['ddd']];
+// const avangers = [...avangersTeam1,...avangersTeam2,...['222'],...['444'],...['ddd']];
 // console.log(avangers);
 
 
@@ -152,12 +152,12 @@ const avangers = [...avangersTeam1,...avangersTeam2,...['222'],...['444'],...['d
 // console.log(str.split(','));
 // console.log(str.split(''));
 
-let a = 1;
-let b=2;
-let sum
+// let a = 1;
+// let b=2;
+// let sum
 
-function getSum(param1, param2){
-    return param1 + param2
-}
-sum = getSum(a,b)
-console.log(sum)
+// function getSum(param1, param2){
+//     return param1 + param2
+// }
+// sum = getSum(a,b)
+// console.log(sum)
