@@ -34,7 +34,7 @@ console.log('Середнє значення: ' + averange)
 // 5 Functioun
 
 const filterEvenNumber = getArray.filter((numbers) => {
-    return numbers % 2 === 1;
+    return numbers % 2 === 0;
 })
 console.log('Фільтр парних чисел: ' + filterEvenNumber);
 
