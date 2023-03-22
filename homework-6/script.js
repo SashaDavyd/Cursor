@@ -323,20 +323,29 @@ const students = [{
     }
 }];
 console.log(students)
-// const test = Object.keys(students[0]['subjects'])
-// console.log(test)
 
-const subjectsList = (student)=>{
+// 
+const getSubject = (student)=>{
     const studentsSubjects = [];
     for (let key in student.subjects){
-    studentsSubjects.push(key.charAt(0).toUpperCase() + key.slice(1).toLowerCase())
+    studentsSubjects.push((key.charAt(0).toUpperCase() + key.slice(1).toLowerCase()).replaceAll('_',' '))
 }
 return studentsSubjects
 }
-console.log(subjectsList(students[0]))
+console.log(getSubject(students[1]))
 
-// function nameUppercase(name) {
-//     const firstLetter = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
-//     console.log(firstLetter)
-//     return firstLetter;}
-//     document.writeln(`Функція №3: ${nameUppercase("оЛекСАНДр")}`)
+// 
+
+const getAverageMark = (student)=>{
+let  sum=0
+const marksArr = Object.values(student.subjects).reduce((a,b)=>{return a.concat(b)});
+
+for (let i=0; i<marksArr.length;i++){
+sum += marksArr[i]
+}
+
+return (sum/marksArr.length).toFixed(2)
+}
+console.log(getAverageMark(students[0]))
+
+// 
