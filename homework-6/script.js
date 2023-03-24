@@ -96,7 +96,7 @@ const calculateWordLetters = (word)=>{
 for (const item of word ){
     result[item] = result[item] ? result[item] + 1: 1;
 }
-// const res = Object.keys(result).filter((item)=>result[item])
+
 return result
 }
 
